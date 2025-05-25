@@ -5,4 +5,6 @@ export function verifyPaddleWebhook(payload: any, signature: string, secret: str
   hmac.update(JSON.stringify(payload))
   const calculatedSignature = hmac.digest('hex')
   return calculatedSignature === signature
-} 
+}
+
+export { verifyPaddleWebhook as verifyWebhookSignature } 
