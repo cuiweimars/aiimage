@@ -1,0 +1,496 @@
+{
+  "ImageGenerator": {
+    "title": "AI画像ジェネレーター",
+    "description": "テキストプロンプトや参考画像を使ってAIで美しい画像を作成",
+    "prompt": "プロンプト",
+    "promptPlaceholder": "どんな画像を見たいですか？",
+    "referenceImages": "参考画像（オプション）",
+    "uploadImagePlaceholder": "参考画像{{number}}",
+    "upload": "アップロード",
+    "aspectRatio": "画像サイズ・アスペクト比",
+    "generate": "生成",
+    "generating": "生成中...",
+    "success": {
+      "title": "画像生成成功",
+      "description": "画像が正常に生成されました。",
+      "cachedTitle": "キャッシュから画像取得",
+      "cachedDescription": "画像がキャッシュから素早く取得されました。"
+    },
+    "errors": {
+      "emptyPrompt": {
+        "title": "プロンプトが空です",
+        "description": "画像を生成するためのプロンプトを入力してください"
+      },
+      "generation": {
+        "title": "生成失敗",
+        "description": "画像生成中にエラーが発生しました。再度お試しください。"
+      },
+      "retryLimit": {
+        "title": "リトライ上限に達しました",
+        "description": "複数回試行しましたが生成できませんでした。しばらくしてから再度お試しください。"
+      },
+      "invalidFileType": {
+        "title": "無効なファイル形式",
+        "description": "画像ファイルをアップロードしてください"
+      },
+      "fileTooLarge": {
+        "title": "ファイルサイズが大きすぎます",
+        "description": "ファイルサイズは5MB未満にしてください"
+      }
+    },
+    "error": {
+      "title": "ダウンロード失敗",
+      "description": "画像のダウンロード中にエラーが発生しました。再度お試しください。"
+    },
+    "emptyState": {
+      "title": "AI画像を生成",
+      "description": "プロンプトを入力し「生成」をクリックしてAI画像を作成しましょう。"
+    },
+    "quota": {
+      "remaining": "本日残り{count}回生成可能",
+      "plan": "ご利用プラン：{plan}",
+      "upgrade": "アップグレード"
+    },
+    "quotaExceeded": {
+      "title": "生成上限に達しました",
+      "description": "本日の画像生成回数の上限に達しました。",
+      "upgrade": "プランをアップグレード"
+    },
+    "share": {
+      "title": "作品をシェア",
+      "description": "生成した画像を他の人と共有しましょう",
+      "defaultText": "このAI生成画像をチェック！",
+      "label": "シェア"
+    },
+    "download": {
+      "label": "ダウンロード"
+    },
+    "save": "保存",
+    "status": {
+      "queued": "キュー中",
+      "generating": "生成中",
+      "optimizing": "最適化中",
+      "completed": "完了",
+      "failed": "失敗"
+    },
+    "estimatedTime": {
+      "seconds": "約{seconds}秒",
+      "minutes": "約{minutes}分"
+    },
+    "retry": "再試行",
+    "cached": "キャッシュ済み",
+    "width": "幅",
+    "height": "高さ",
+    "ratio": "アスペクト比",
+    "aspect": {
+      "label": "比率",
+      "square": "1:1"
+    },
+    "style": {
+      "none": "スタイルなし",
+      "realistic": "リアル",
+      "cartoon": "カートゥーン",
+      "oilPainting": "油絵",
+      "cyberpunk": "サイバーパンク",
+      "lowpoly": "ローポリ",
+      "lineart": "線画",
+      "anime": "アニメ",
+      "cinematic": "シネマティック"
+    },
+    "color": {
+      "none": "色なし",
+      "bw": "白黒",
+      "vivid": "ビビッド",
+      "soft": "ソフト",
+      "highContrast": "高コントラスト",
+      "monochrome": "モノクロ"
+    },
+    "lighting": {
+      "none": "ライティングなし",
+      "natural": "自然光",
+      "backlight": "逆光",
+      "night": "夜景",
+      "soft": "ソフトライト",
+      "hard": "ハードライト",
+      "drama": "ドラマチックライト"
+    },
+    "composition": {
+      "none": "構図なし",
+      "blurred": "背景ぼかし",
+      "closeup": "クローズアップ",
+      "wide": "ワイドアングル",
+      "depth": "被写界深度",
+      "low": "ローアングル",
+      "high": "ハイアングル",
+      "macro": "マクロ"
+    },
+    "negativePrompt": "ネガティブプロンプト",
+    "highQuality": "高品質",
+    "tips": {
+      "referenceImages": "最良の結果を得るには英語のプロンプトを推奨します。参考画像もアップロード可能です。"
+    },
+    "clear": "クリア",
+    "random": "ランダム",
+    "colors": {
+      "cool": "クール",
+      "warm": "ウォーム",
+      "bw": "白黒",
+      "vivid": "ビビッド",
+      "vintage": "ヴィンテージ"
+    },
+    "generateSuccess": "生成成功",
+    "generateSuccessDesc": "画像が正常に生成されました",
+    "generateError": "生成失敗",
+    "remainingQuota": "本日残り{count}回生成可能",
+    "currentPlan": "現在のプラン：{plan}",
+    "guidanceScale": "ガイダンス強度",
+    "imgGuidanceScale": "画像ガイダンス強度",
+    "format": {
+      "label": "フォーマット",
+      "webp": "フォーマット：webp",
+      "jpg": "フォーマット：jpg",
+      "png": "フォーマット：png"
+    },
+    "countdown": "残り約{count}秒",
+    "planLabel": "現在のプラン",
+    "plan": {
+      "free": "無料プラン",
+      "basic": "ベーシック",
+      "pro": "プロ",
+      "guest": "無料プラン"
+    },
+    "qualityLabel": "画質",
+    "quality": {
+      "free": "標準画質",
+      "basic": "標準画質",
+      "pro": "高画質",
+      "guest": "標準画質"
+    },
+    "view": "拡大表示",
+    "galleryPublishSuccess": "公開成功、画像がギャラリーに追加されました",
+    "galleryShareSuccess": "あなたの作品がみんなにシェアされました！"
+  },
+  "Index": {
+    "title": "ようこそ",
+    "description": "これはホームページです"
+  },
+  "AILabPage": {
+    "hero": {
+      "title": "AI画像ジェネレーター",
+      "subtitle": "AIで素晴らしい画像を作成"
+    }
+  },
+  "Onboarding": {
+    "resetTutorial": "チュートリアルを再開",
+    "Welcome": {
+      "title": "Picasso AIへようこそ",
+      "description": "AI画像生成の世界を始めましょう",
+      "slides": {
+        "0": {
+          "title": "Picasso AIへようこそ",
+          "description": "あなたのクリエイティブAI画像生成プラットフォーム。できることを一緒に見てみましょう。"
+        },
+        "1": {
+          "title": "素晴らしい画像を作成",
+          "description": "最先端のAI画像生成技術で、アイデアを美しいビジュアルに変換。"
+        },
+        "2": {
+          "title": "作品をシェア",
+          "description": "生成したAI画像を保存・共有し、世界に発信しましょう。"
+        }
+      },
+      "skip": "スキップ",
+      "next": "次へ",
+      "getStarted": "はじめる"
+    }
+  },
+  "SocialShareButtons": {
+    "linkCopied": "リンクをコピーしました！",
+    "error": "リンクのコピーに失敗しました。",
+    "embedCode": "埋め込みコード",
+    "embedCopied": "埋め込みコードをコピーしました！",
+    "copyLink": "リンクをコピー",
+    "copyEmbed": "埋め込みコードをコピー"
+  },
+  "Stats": {
+    "title": "インパクト",
+    "subtitle": "数百万人に信頼されています",
+    "description": "世界最大の無料AI画像生成コミュニティに参加しましょう",
+    "items": {
+      "0": {
+        "label": "アクティブユーザー",
+        "value": "3M+",
+        "desc": "月間アクティブユーザー数"
+      },
+      "1": {
+        "label": "生成画像数",
+        "value": "1,530",
+        "desc": "1分あたりの生成画像数"
+      },
+      "2": {
+        "label": "ユーザー評価",
+        "value": "4.9",
+        "desc": "平均画像品質評価"
+      }
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Picasso AI",
+      "subtitle": "数秒で驚くべきAI画像を生成",
+      "description": "世界初の無制限・無料・高速AI画像ジェネレーター",
+      "badge1": "100%無料",
+      "badge2": "高速生成",
+      "badge3": "ログイン不要",
+      "badge4": "無制限生成"
+    },
+    "generator": {
+      "title": "AI画像ジェネレーター",
+      "subtitle": "テキストから素晴らしいAI画像を作成"
+    },
+    "features": {
+      "title": "強力な機能",
+      "subtitle": "Picasso AIの全機能を体験しよう"
+    },
+    "gallery": {
+      "title": "ギャラリー",
+      "subtitle": "AIが生成した素晴らしい作品を閲覧",
+      "viewMore": "もっと見る"
+    },
+    "stats": {
+      "title": "統計",
+      "subtitle": "ユーザーの作品をチェック"
+    },
+    "cta": {
+      "title": "AIクリエイションの旅を始めよう",
+      "subtitle": "今すぐ無料登録してAI画像を作成しよう",
+      "primaryCta": "無料で登録",
+      "secondaryCta": "料金を見る"
+    }
+  },
+  "Features": {
+    "title": "Picasso AIの主な特徴",
+    "subtitle": "次世代AI画像生成を体験しよう：強力・無料・プライバシー重視",
+    "items": {
+      "0": {
+        "title": "完全無料",
+        "description": "世界初の完全無料AI画像生成器。利用制限や登録不要。"
+      },
+      "1": {
+        "title": "最先端の品質",
+        "description": "最高のモデルで、写真のような高精細画像と多彩なスタイル制御を実現。"
+      },
+      "2": {
+        "title": "高度なテキスト理解",
+        "description": "複雑なプロンプトやテキストオーバーレイも正確に解釈。"
+      },
+      "3": {
+        "title": "超高速生成",
+        "description": "最適化された推論パイプラインで、品質を損なわずに素早く画像生成。"
+      },
+      "4": {
+        "title": "プライバシー重視",
+        "description": "Fogデータプライバシー戦略―プロンプトや生成画像はサーバーに保存されません。"
+      },
+      "5": {
+        "title": "多彩なスタイル対応",
+        "description": "写真風からアニメ、油絵、デジタルアートまで幅広いスタイルに対応。"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "subtitle": "Picasso AIに関するよくある質問",
+    "items": {
+      "0": {
+        "question": "Picasso AIとは？",
+        "answer": "Picasso AIは、テキストから画像を生成できる強力なAI画像生成プラットフォームです。最先端のAIモデルを使い、あなたのアイデアをビジュアルアートに変換します。"
+      },
+      "1": {
+        "question": "Picasso AIの使い方は？",
+        "answer": "使い方は簡単です。生成したい画像の詳細な説明を入力し、スタイルや設定を選択して生成ボタンをクリックするだけ。AIがあなたの説明に基づいて画像を作成します。"
+      },
+      "2": {
+        "question": "生成画像は商用利用できますか？",
+        "answer": "有料プランで生成した画像は商用利用可能です。無料プランの画像は個人利用のみとなります。詳細は利用規約をご覧ください。"
+      },
+      "3": {
+        "question": "より良い結果を得るには？",
+        "answer": "最良の結果を得るには、シーン・スタイル・ライティング・雰囲気などを含めた詳細な説明を推奨します。さまざまなスタイルプリセットや設定もお試しください。"
+      },
+      "4": {
+        "question": "対応画像フォーマットは？",
+        "answer": "JPG、PNG、WebPなど複数の画像フォーマットに対応しています。生成画像は任意の形式でダウンロード可能です。"
+      },
+      "5": {
+        "question": "Picasso AIのプライバシー保護は？",
+        "answer": "プライバシーを非常に重視しています。プロンプトや生成画像はサーバーに保存されません。生成後すぐに削除されます。"
+      },
+      "6": {
+        "question": "最先端モデルとは？",
+        "answer": "Picasso AIは、画像品質・プロンプト精度・多様性に優れた最先端AIモデルを採用しています。通常は高価ですが、Picasso AIでは誰でも無料で利用できます。"
+      },
+      "7": {
+        "question": "Picasso AIの利用制限は？",
+        "answer": "Picasso AIは無料・無制限ですが、適切な利用のため標準的なコンテンツモデレーションを行っています。現在はWebのみ対応、モバイルアプリも今後提供予定です。"
+      },
+      "8": {
+        "question": "生成画像の著作権は？",
+        "answer": "Picasso AIで生成した画像の著作権はユーザーに帰属します。個人・商用問わずご利用いただけます。"
+      },
+      "9": {
+        "question": "モバイル対応は？",
+        "answer": "現在はWebサイトでご利用いただけます。モバイルアプリも開発中です。"
+      },
+      "10": {
+        "question": "対応言語は？",
+        "answer": "Picasso AIは多言語インターフェースとプロンプト入力に対応し、世界中のユーザーに便利です。"
+      },
+      "11": {
+        "question": "サポートへの連絡方法は？",
+        "answer": "ご質問や技術的な問題がある場合は、support@picassoai.best までご連絡ください。"
+      }
+    }
+  },
+  "Header": {
+    "home": "ホーム",
+    "pricing": "料金",
+    "gallery": "ギャラリー",
+    "blog": "ブログ",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "dashboard": "ダッシュボード",
+    "settings": "設定",
+    "signOut": "ログアウト",
+    "signIn": "ログイン",
+    "signUp": "新規登録",
+    "profile": "プロフィール"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "言語を切り替える"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "テーマを切り替える",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "Testimonials": {
+    "title": "ユーザーの声",
+    "subtitle": "ユーザーの感想をご紹介します",
+    "roles": {
+      "designer": "UI/UXデザイナー",
+      "developer": "フルスタック開発者",
+      "marketer": "デジタルマーケター",
+      "manager": "プロダクトマネージャー",
+      "illustrator": "フリーランスイラストレーター"
+    },
+    "items": {
+      "0": { "content": "Picasso AIは私のデザインワークフローを一変させました。アイデアを素早くビジュアル化でき、生産性が大幅に向上しました。" },
+      "1": { "content": "開発者として、様々なプロジェクト用の画像素材が必要ですが、Picasso AIなら高品質な画像をすぐに生成できてとても便利です。" },
+      "2": { "content": "マーケティングでは多くの高品質なビジュアルが必要ですが、Picasso AIのおかげで魅力的な画像を素早く作成でき、成果も向上しました。" },
+      "3": { "content": "Picasso AIでプロトタイプがより表現豊かになり、デザイン時間も大幅に短縮できました。すべてのプロダクト担当者におすすめです！" },
+      "4": { "content": "AI生成画像は私の創作に無限のインスピレーションを与えてくれます。Picasso AIはお気に入りのツールの一つです。" }
+    }
+  },
+  "Footer": {
+    "description": "数秒でAI画像を生成",
+    "product": "プロダクト",
+    "pricing": "料金",
+    "gallery": "ギャラリー",
+    "aiLab": "AIラボ",
+    "company": "会社情報",
+    "about": "私たちについて",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "legal": "法的情報",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "allRightsReserved": "All rights reserved"
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 10, 2024",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.app (\"the Service\").",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "2. Information We Don't Collect",
+        "content": "We are committed to minimal data collection. We do not:",
+        "items": [
+          "Require user registration or accounts",
+          "Store your prompts or generated images",
+          "Collect personal information",
+          "Use cookies for tracking",
+          "Share any data with third parties",
+          "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "3. Information We Process",
+        "content": "The only information we process includes:",
+        "items": [
+          "Temporary text prompts during image generation",
+          "Generated images during the creation process",
+          "Basic usage analytics (non-personally identifiable)",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "4. How We Use Information",
+        "content": "Any information processed is used solely for:",
+        "items": [
+          "Generating images in response to your prompts",
+          "Improving the Service's performance and quality",
+          "Maintaining service security and preventing abuse",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "5. Data Retention",
+        "content": "We follow a strict no-storage policy. All prompts and generated images are processed in real-time and deleted immediately after generation. We do not maintain any database of user content.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "6. Security Measures",
+        "content": "We implement appropriate technical measures to protect against unauthorized access, alteration, or destruction of the limited data we process. Our service operates on secure, encrypted connections.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "7. Children's Privacy",
+        "content": "Our Service is not intended for children under 13 years of age. We do not knowingly collect or process information from children under 13.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "8. Changes to Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "9. Your Rights",
+        "content": "Since we don't collect personal data, there is typically no user data to:",
+        "items": [
+          "Access",
+          "Correct",
+          "Delete",
+          "Export",
+          "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "10. Contact Information",
+        "content": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "11. Legal Basis",
+        "content": "We process the minimal required information based on legitimate interests in providing and improving the Service while maintaining user privacy and security.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      }
+    ],
+    "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app."
+  }
+} 

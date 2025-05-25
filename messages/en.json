@@ -1,0 +1,892 @@
+{
+  "ImageGenerator": {
+    "title": "AI Image Generator",
+    "description": "Create stunning images with AI using text prompts and reference images",
+    "prompt": "Prompt",
+    "promptPlaceholder": "What do you want to see?",
+    "referenceImages": "Reference Images (Optional)",
+    "uploadImagePlaceholder": "Reference Image {{number}}",
+    "upload": "Upload",
+    "aspectRatio": "Image Size & Aspect Ratio",
+    "generate": "Generate",
+    "generating": "Generating...",
+    "success": {
+      "title": "Image Generated",
+      "description": "Your image has been successfully generated.",
+      "cachedTitle": "Image Retrieved from Cache",
+      "cachedDescription": "Your image was quickly retrieved from the cache."
+    },
+    "errors": {
+      "emptyPrompt": {
+        "title": "Empty Prompt",
+        "description": "Please enter a prompt to generate an image"
+      },
+      "generation": {
+        "title": "Generation Failed",
+        "description": "There was an error generating your image. Please try again."
+      },
+      "retryLimit": {
+        "title": "Retry Limit Reached",
+        "description": "Failed to generate image after multiple retries. Please try again later."
+      },
+      "invalidFileType": {
+        "title": "Invalid File Type",
+        "description": "Please upload an image file"
+      },
+      "fileTooLarge": {
+        "title": "File Too Large",
+        "description": "File size should be less than 5MB"
+      }
+      },
+      "error": {
+        "title": "Download Failed",
+        "description": "There was an error downloading your image. Please try again."
+    },
+    "emptyState": {
+      "title": "Generate AI Images",
+      "description": "Enter a prompt and click Generate to create an AI-powered image."
+    },
+    "quota": {
+      "remaining": "{count} generations remaining today",
+      "plan": "on your {plan} plan",
+      "upgrade": "Upgrade"
+    },
+    "quotaExceeded": {
+      "title": "Generation Quota Exceeded",
+      "description": "You have reached your daily image generation limit.",
+      "upgrade": "Upgrade Plan"
+    },
+    "share": {
+      "title": "Share Your Creation",
+      "description": "Share your generated image with others",
+      "defaultText": "Check out this AI-generated image!",
+      "label": "Share"
+    },
+    "download": {
+      "label": "Download"
+    },
+    "save": "Save",
+    "status": {
+      "queued": "Queued",
+      "generating": "Generating",
+      "optimizing": "Optimizing",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "estimatedTime": {
+      "seconds": "About {seconds} seconds",
+      "minutes": "About {minutes} minutes"
+    },
+    "retry": "Retry",
+    "cached": "Cached",
+    "width": "Width",
+    "height": "Height",
+    "ratio": "Aspect Ratio",
+    "aspect": {
+      "label": "Aspect",
+      "square": "1:1"
+    },
+    "style": {
+      "none": "No Style",
+      "realistic": "Realistic",
+      "cartoon": "Cartoon",
+      "oilPainting": "Oil Painting",
+      "cyberpunk": "Cyberpunk",
+      "lowpoly": "Low Poly",
+      "lineart": "Line Art",
+      "anime": "Anime",
+      "cinematic": "Cinematic"
+    },
+    "color": {
+      "none": "No Color",
+      "bw": "Black & White",
+      "vivid": "Vivid",
+      "soft": "Soft",
+      "highContrast": "High Contrast",
+      "monochrome": "Monochrome"
+    },
+    "lighting": {
+      "none": "No Lighting",
+      "natural": "Natural",
+      "backlight": "Backlight",
+      "night": "Night",
+      "soft": "Soft",
+      "hard": "Hard Light",
+      "drama": "Dramatic Light"
+    },
+    "composition": {
+      "none": "No Composition",
+      "blurred": "Blurred Background",
+      "closeup": "Close-up",
+      "wide": "Wide Angle",
+      "depth": "Depth of Field",
+      "low": "Low Angle",
+      "high": "High Angle",
+      "macro": "Macro"
+    },
+    "negativePrompt": "Negative Prompt",
+    "highQuality": "High Quality",
+    "tips": {
+      "referenceImages": "For best results, use English prompts. You can upload a reference image."
+    },
+    "clear": "Clear",
+    "random": "Random",
+    "colors": {
+      "cool": "Cool",
+      "warm": "Warm",
+      "bw": "Black & White",
+      "vivid": "Vivid",
+      "vintage": "Vintage"
+    },
+    "generateSuccess": "Generation Successful",
+    "generateSuccessDesc": "Your image has been successfully generated",
+    "generateError": "Generation Failed",
+    "remainingQuota": "{count} generations remaining today",
+    "currentPlan": "Current Plan: {plan}",
+    "guidanceScale": "Guidance Scale",
+    "imgGuidanceScale": "Image Guidance Scale",
+    "format": {
+      "label": "Format",
+      "webp": "Format: webp",
+      "jpg": "Format: jpg",
+      "png": "Format: png"
+    },
+    "countdown": "About {count} seconds remaining",
+    "planLabel": "Current Plan",
+    "plan": {
+      "free": "Free",
+      "basic": "Basic",
+      "pro": "Pro",
+      "guest": "Standard Quality"
+    },
+    "qualityLabel": "Quality",
+    "quality": {
+      "free": "Standard Quality",
+      "basic": "Standard Quality",
+      "pro": "High Quality",
+      "guest": "Standard Quality"
+    },
+    "view": "View",
+    "galleryPublishSuccess": "Published successfully, image has been added to the gallery",
+    "galleryShareSuccess": "Your creation has been successfully shared with everyone!"
+  },
+  "Index": {
+    "title": "Welcome",
+    "description": "This is the home page"
+  },
+  "AILabPage": {
+    "hero": {
+      "title": "AI Image Generator",
+      "subtitle": "Create amazing images with AI"
+    }
+  },
+  "Onboarding": {
+    "resetTutorial": "Restart Tutorial",
+    "Welcome": {
+      "title": "Welcome to Picasso AI",
+      "description": "Let's start creating stunning AI-generated images",
+      "slides": {
+        "0": {
+          "title": "Welcome to Picasso AI",
+          "description": "Your creative AI image generation platform. Let's explore what you can do here."
+        },
+        "1": {
+          "title": "Create Amazing Images",
+          "description": "Use our advanced AI image generation technology to turn your ideas into stunning visuals."
+        },
+        "2": {
+          "title": "Share Your Creations",
+          "description": "Save, share, and showcase your AI-generated masterpieces to the world."
+        }
+      },
+      "skip": "Skip Tour",
+      "next": "Next",
+      "getStarted": "Get Started"
+    },
+    "AiLab": {
+      "title": "AI Lab Guide",
+      "description": "This is where the magic happens! The AI Lab is where you create images from text prompts.",
+      "tips": {
+        "0": "Start with a detailed description of what you want to see",
+        "1": "Try different styles and settings",
+        "2": "Save images you like to your gallery"
+      },
+      "continue": "Continue",
+      "dismiss": "Dismiss"
+    },
+    "PromptWriting": {
+      "title": "Prompt Writing Tips",
+      "description": "The quality of your prompt greatly affects the images you get. Here are some tips:",
+      "tips": {
+        "0": {
+          "title": "Be Specific and Detailed",
+          "description": "Include specific details about the subject, scene, lighting, mood, and style",
+          "examples": [
+            "A tranquil lake at dusk, mountains in the background, golden light, reflections in the water",
+            "A cyberpunk cityscape at night, neon lights, flying cars, and holographic ads"
+          ]
+        },
+        "1": {
+          "title": "Specify Art Styles",
+          "description": "Mention specific art styles or artists for more consistent results",
+          "examples": ["A Renaissance-style portrait, rich in detail, realistic lighting", "An impressionist landscape, vibrant colors, visible brushstrokes"]
+        },
+        "2": {
+          "title": "Use Negative Prompts",
+          "description": "Specify what you don't want to see in the image",
+          "examples": ["Negative prompt: blurry, distorted, low quality, incorrect anatomy", "Negative prompt: text, watermark, signature, oversaturated colors"]
+        }
+      },
+      "gotIt": "Got it"
+    },
+    "Gallery": {
+      "title": "Gallery Guide",
+      "description": "The gallery is where you can browse, filter, and explore images created by you and other users.",
+      "features": {
+        "0": "Browse community-created images",
+        "1": "Filter by style, date, and popularity",
+        "2": "Save images to your favorites",
+        "3": "Share images you like on social media"
+      },
+      "continue": "Continue"
+    },
+    "Subscription": {
+      "title": "Subscription Plans",
+      "description": "Upgrade your account to unlock more features and higher generation limits.",
+      "plans": {
+        "basic": {
+          "title": "Basic Plan",
+          "description": "More daily generations, higher quality, no watermark",
+          "button": "Upgrade to Basic"
+        },
+        "ultimate": {
+          "title": "Ultimate Plan",
+          "description": "Unlimited generations, highest quality, priority support"
+        }
+      },
+      "continue": "Continue"
+    },
+    "Completion": {
+      "title": "All Set!",
+      "description": "You have completed the Picasso AI introduction",
+      "whatYouLearned": "What you learned",
+      "learningPoints": {
+        "0": "How to create AI-generated images using text prompts",
+        "1": "Tips for writing effective prompts for better results",
+        "2": "How to browse and interact with the image gallery",
+        "3": "The different subscription plans and their benefits"
+      },
+      "nextSteps": {
+        "title": "Next Steps",
+        "description": "Start creating your own AI-generated images, explore the gallery, or check our help center for more tips and tutorials."
+      },
+      "startCreating": "Start Creating"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Picasso AI",
+      "subtitle": "Create stunning AI-generated images in seconds",
+      "description": "The world's first unlimited, free, and fast AI image generator",
+      "badge1": "100% Free",
+      "badge2": "Fast Generation",
+      "badge3": "No Login Required",
+      "badge4": "Unlimited Generation"
+    },
+    "generator": {
+      "title": "AI Image Generator",
+      "subtitle": "Create amazing AI images from text descriptions"
+    },
+    "features": {
+      "title": "Powerful Features",
+      "subtitle": "Explore all the features Picasso AI offers"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "Browse amazing works generated by our AI",
+      "viewMore": "View More"
+    },
+    "stats": {
+      "title": "Statistics",
+      "subtitle": "See what our users have created"
+    },
+    "cta": {
+      "title": "Start Your AI Creation Journey",
+      "subtitle": "Sign up now and start creating stunning AI images",
+      "primaryCta": "Sign Up Free",
+      "secondaryCta": "View Pricing"
+    }
+  },
+  "Features": {
+    "title": "Main Features of Picasso AI",
+    "subtitle": "Experience next-generation AI image creation: powerful, free, and privacy-focused.",
+    "items": {
+      "0": {
+        "title": "Zero-Cost Creation",
+        "description": "The world's first completely free AI image generator, with no usage limits or registration required."
+      },
+      "1": {
+        "title": "State-of-the-Art Quality",
+        "description": "Powered by the best model, delivering photo-realistic images with exceptional detail and artistic style control."
+      },
+      "2": {
+        "title": "Advanced Text Understanding",
+        "description": "Outstanding text-to-image capabilities that accurately interpret complex prompts and text overlay features."
+      },
+      "3": {
+        "title": "Lightning-Fast Generation",
+        "description": "Optimized inference pipeline ensures rapid image creation without compromising quality."
+      },
+      "4": {
+        "title": "Enhanced Privacy Protection",
+        "description": "Fog data privacy strategy—your prompts and generated images are never stored on our servers."
+      },
+      "5": {
+        "title": "Multi-Style Support",
+        "description": "Create images across a wide range of artistic styles, from photo-realistic to anime, from oil painting to digital art."
+      }
+    }
+  },
+  "Stats": {
+    "title": "Impact",
+    "subtitle": "Trusted by Millions of Users",
+    "description": "Join the world's largest free AI image generator community",
+    "items": {
+      "0": {
+        "label": "Active Users",
+        "value": "3M+",
+        "desc": "Monthly active users"
+      },
+      "1": {
+        "label": "Images Created",
+        "value": "1,530",
+        "desc": "Images generated per minute"
+      },
+      "2": {
+        "label": "User Rating",
+        "value": "4.9",
+        "desc": "Average image quality rating"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Picasso AI",
+    "items": {
+      "0": {
+        "question": "What is Picasso AI?",
+        "answer": "Picasso AI is a powerful AI image generation platform that allows users to create stunning images from text descriptions. We use state-of-the-art AI models to turn your ideas into visual art."
+      },
+      "1": {
+        "question": "How do I use Picasso AI?",
+        "answer": "Using Picasso AI is simple. Just enter a detailed description of the image you want to create, choose your preferred style and settings, and click the generate button. Our AI will create the image based on your description."
+      },
+      "2": {
+        "question": "Can I use generated images for commercial purposes?",
+        "answer": "Yes, images generated with a paid plan can be used for commercial purposes. Images generated with the free plan are for personal use only. Please see our terms of use for more details."
+      },
+      "3": {
+        "question": "How can I get better results?",
+        "answer": "For best results, we recommend using detailed and specific descriptions, including scene, style, lighting, and mood. You can also try different style presets and settings for varied effects."
+      },
+      "4": {
+        "question": "What image formats are supported?",
+        "answer": "We support multiple image formats, including JPG, PNG, and WebP. Generated images can be downloaded in any of these formats."
+      },
+      "5": {
+        "question": "How does Picasso AI protect my privacy?",
+        "answer": "We take privacy very seriously. We do not store your prompts or generated images on our servers. Your creations are completely private and deleted after generation."
+      },
+      "6": {
+        "question": "What are state-of-the-art models?",
+        "answer": "Picasso AI uses state-of-the-art AI models known for their image quality, prompt accuracy, and versatility. These models are usually expensive, but Picasso AI makes them free for everyone."
+      },
+      "7": {
+        "question": "Are there any restrictions on using Picasso AI?",
+        "answer": "While Picasso AI is free and unlimited, we maintain standard content moderation to ensure proper use. The platform is currently web-only, with mobile apps planned for the future."
+      },
+      "8": {
+        "question": "Can I use generated images for commercial purposes?",
+        "answer": "Yes, you own the copyright to images generated with Picasso AI. You can use them for personal and commercial purposes, making it ideal for creators and businesses."
+      },
+      "9": {
+        "question": "Is Picasso AI available on mobile devices?",
+        "answer": "Currently, Picasso AI is accessible via its website, which works well on mobile. Dedicated mobile apps are in development for an even better experience."
+      },
+      "10": {
+        "question": "What languages does Picasso AI support?",
+        "answer": "Picasso AI supports multilingual interface and prompt input, making it convenient for users worldwide."
+      },
+      "11": {
+        "question": "How to get support if I encounter problems?",
+        "answer": "If you have any questions or technical issues, please contact our support team at support@picasso.app."
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "User Testimonials",
+    "subtitle": "Hear what our users have to say",
+    "roles": {
+      "designer": "UI/UX Designer",
+      "developer": "Full Stack Developer",
+      "marketer": "Digital Marketer",
+      "manager": "Product Manager",
+      "illustrator": "Freelance Illustrator"
+    },
+    "items": {
+      "0": { "content": "Picasso AI has completely transformed my design workflow. It quickly turns my ideas into visual concepts, greatly improving my efficiency." },
+      "1": { "content": "As a developer, I often need to create various image assets for projects. Picasso AI lets me generate the images I need quickly, and the quality is amazing." },
+      "2": { "content": "In marketing, we need a lot of high-quality visual content. Picasso AI helps us quickly create attractive images, boosting our marketing results." },
+      "3": { "content": "Picasso AI makes my product prototypes more expressive and saves me a lot of design time. Highly recommended for all product people!" },
+      "4": { "content": "The AI-generated images have brought endless inspiration to my creations. Picasso AI is one of my favorite tools." }
+    }
+  },
+  "Header": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "openMenu": "Open Menu",
+    "closeMenu": "Close Menu",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "profile": "Profile"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Switch Language"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Toggle Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Footer": {
+    "description": "Create stunning AI images in seconds.",
+    "product": "Product",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "aiLab": "AI Lab",
+    "company": "Company",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "allRightsReserved": "All rights reserved"
+  },
+  "RegisterPage": {
+    "title": "Register",
+    "subtitle": "Create a new account",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign In"
+  },
+  "RegisterForm": {
+    "name": "Name",
+    "namePlaceholder": "Please enter your name",
+    "email": "Email",
+    "password": "Password",
+    "referralCode": "Referral Code",
+    "createAccount": "Create Account",
+    "creating": "Creating...",
+    "orContinueWith": "Or continue with",
+    "validation": {
+      "name": "Name must be at least 2 characters",
+      "email": "Please enter a valid email address",
+      "password": "Password must be at least 8 characters"
+    },
+    "success": {
+      "title": "Registration Successful",
+      "description": "Your account has been created successfully"
+    },
+    "errors": {
+      "title": "Registration Failed",
+      "unknown": "An error occurred during registration, please try again later"
+    }
+  },
+  "GalleryPage": {
+    "title": "Gallery",
+    "description": "Browse, filter, and explore images created by you and other users.",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loadMore": "Load More",
+    "loading": "Loading...",
+    "empty": "No images found.",
+    "error": "Failed to load images. Please try again.",
+    "createdBy": "Created by {name}",
+    "date": "Date",
+    "popularity": "Popularity",
+    "style": "Style",
+    "all": "All",
+    "favorites": "Favorites"
+  },
+  "GalleryHeader": {
+    "title": "Gallery",
+    "subtitle": "Explore and manage your AI-generated images.",
+    "filter": "Filter",
+    "sort": "Sort",
+    "upload": "Upload",
+    "refresh": "Refresh",
+    "search": "Search",
+    "clear": "Clear",
+    "myFavorites": "My Favorites",
+    "myUploads": "My Uploads",
+    "allImages": "All Images"
+  },
+  "PricingPage": {
+    "hero": {
+      "title": "Upgrade Your Plan",
+      "subtitle": "Choose the plan that fits your needs and unlock more AI image generations."
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Perfect for individuals and small projects.",
+        "features": {
+          "0": "Unlimited image generation",
+          "1": "Standard quality",
+          "2": "No watermark",
+          "3": "Basic support"
+        },
+        "cta": "Choose Basic",
+        "button": "Upgrade to Basic"
+      },
+      "ultimate": {
+        "name": "Ultimate",
+        "description": "Ideal for professionals and businesses.",
+        "features": {
+          "0": "Unlimited image generation",
+          "1": "Highest quality output",
+          "2": "No watermark",
+          "3": "Fastest generation speed",
+          "4": "Access to all styles",
+          "5": "Priority support",
+          "6": "Commercial usage rights",
+          "7": "Exclusive access to new features",
+          "8": "Advanced customization options"
+        },
+        "cta": "Choose Ultimate",
+        "button": "Upgrade to Ultimate"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Custom solutions for large teams and enterprises.",
+        "features": {
+          "0": "Custom limits",
+          "1": "Dedicated support",
+          "2": "SLAs & compliance",
+          "3": "Team management",
+          "4": "Custom integrations"
+        },
+        "cta": "Contact Sales",
+        "price": "Contact us"
+      }
+    },
+    "billing": {
+      "monthly": "Monthly Billing",
+      "yearly": "Yearly Billing",
+      "discount": "Save 20%"
+    },
+    "perMonth": "/month",
+    "perYear": "/year",
+    "popular": "Most Popular"
+  },
+  "SettingsPage": {
+    "title": "Settings",
+    "description": "Manage your account settings and preferences",
+    "help": {
+      "title": "Need Help?",
+      "description": "If you need to restart the tutorial or encounter any issues, feel free to contact us."
+    }
+  },
+  "ProfilePage": {
+    "title": "Profile",
+    "baseInfo": "Basic Information",
+    "email": "Email",
+    "username": "Username",
+    "currentPlanLabel": "Current Plan",
+    "planAndBilling": "Plan & Billing",
+    "upgrade": "Upgrade",
+    "currentPlan": "Current Plan",
+    "ultimate": "Ultimate",
+    "basic": "Basic",
+    "free": "Free",
+    "currentFeatures": "Current Features",
+    "feature": {
+      "unlimited": "Unlimited image generation",
+      "speed": "Basic generation speed (20s)",
+      "optimize": "Basic optimization features"
+    },
+    "premiumTitle": "Premium Benefits",
+    "premium": {
+      "speed": "5x faster generation",
+      "noWatermark": "No watermark",
+      "priority": "Priority queue",
+      "private": "Private generation"
+    },
+    "upgradeDesc": "Upgrade to Ultimate for only $10/month (billed annually)",
+    "upgradeNow": "Upgrade Now",
+    "maxPlanTip": "You are already at the highest membership level and enjoy all benefits!"
+  },
+  "SubscribePage": {
+    "title": "Choose Your Subscription Plan",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "features": {
+          "0": "Unlimited image generation",
+          "1": "Standard quality",
+          "2": "No watermark",
+          "3": "Basic support",
+          "4": "Perfect for individuals and small projects"
+        }
+      },
+      "ultimate": {
+        "name": "Ultimate",
+        "features": {
+          "0": "Unlimited image generation",
+          "1": "Highest quality output",
+          "2": "No watermark",
+          "3": "Fastest generation speed",
+          "4": "Access to all styles",
+          "5": "Priority support",
+          "6": "Commercial usage rights",
+          "7": "Exclusive access to new features",
+          "8": "Advanced customization options"
+        },
+        "button": "Upgrade to Ultimate"
+      },
+      "free": {
+        "name": "Free",
+        "features": {
+          "0": "Unlimited image generation",
+          "1": "Fast generation",
+          "2": "No login required",
+          "3": "100% free"
+        },
+        "button": "Use for Free"
+      }
+    },
+    "billing": {
+      "month": "Monthly Billing",
+      "year": "Yearly Billing",
+      "perMonth": "per month"
+    },
+    "subscribe": "Subscribe to {plan}",
+    "jumping": "Redirecting...",
+    "currentSubscribed": "Currently subscribed to {plan}, expires on {expiry}",
+    "tips": {
+      "autoActive": "Membership will be activated automatically after successful payment."
+    },
+    "errors": {
+      "createSessionFailed": "Failed to create checkout session. Please try again.",
+      "network": "Network error. Please try again later."
+    }
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "subtitle": "Read the latest articles on AI image generation and creative design.",
+    "description": "Read the latest articles on AI image generation and creative design."
+  },
+  "BlogCard": {
+    "title": "Blog Title",
+    "description": "Blog Description",
+    "readMore": "Read More",
+    "date": "Date",
+    "author": "Author"
+  },
+  "BlogRelatedPosts": {
+    "title": "Related Posts",
+    "empty": "No related posts"
+  },
+  "BlogComments": {
+    "title": "Comments",
+    "empty": "No comments yet"
+  },
+  "GalleryGrid": {
+    "title": "Gallery",
+    "empty": "No images found.",
+    "loading": "Loading...",
+    "error": "Failed to load images. Please try again.",
+    "createdBy": "Created by {name}",
+    "date": "Date",
+    "style": "Style",
+    "download": {
+      "label": "Download"
+    },
+    "view": "View",
+    "imageDetails": "Image Details",
+    "share": {
+      "label": "Share"
+    }
+  },
+  "SocialShareButtons": {
+    "linkCopied": "Link copied!",
+    "error": "Failed to copy link.",
+    "embedCode": "Embed Code",
+    "embedCopied": "Embed code copied!",
+    "copyLink": "Copy Link",
+    "copyEmbed": "Copy Embed Code"
+  },
+  "TermsPage": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 10, 2024",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "Welcome to Picasso. By accessing or using our AI image generation service at picasso.app (\"the Service\"), you agree to be bound by these Terms of Service (\"Terms\"). Please read these Terms carefully before using the Service."
+      },
+      {
+        "title": "2. Service Description",
+        "content": "Picasso is a free AI image generation service powered by the FLUX+Der model. We provide users with the ability to generate images from text descriptions without requiring registration or payment."
+      },
+      {
+        "title": "3. User Obligations",
+        "content": "By using our Service, you agree to:",
+        "items": [
+          "Use the Service in compliance with all applicable laws and regulations",
+          "Not attempt to circumvent any limitations or security measures",
+          "Not use the Service for any illegal or unauthorized purposes",
+          "Not interfere with or disrupt the Service or servers",
+          "Not generate content that violates intellectual property rights or contains harmful material"
+        ]
+      },
+      {
+        "title": "4. Intellectual Property Rights",
+        "content": "Images generated through our Service are provided under the Creative Commons Zero (CC0) license. You may use the generated images for any purpose, including commercial use, without attribution requirements. However, you acknowledge that certain prompts or outputs may be subject to third-party rights."
+      },
+      {
+        "title": "5. Privacy and Data Protection",
+        "content": "Our privacy practices are outlined in our Privacy Policy. We do not store user prompts or generated images, and we do not require user registration or collect personal information."
+      },
+      {
+        "title": "6. Service Availability",
+        "content": "While we strive to maintain continuous service availability, we do not guarantee uninterrupted access to the Service. We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time without notice."
+      },
+      {
+        "title": "7. Content Guidelines",
+        "content": "You agree not to generate:",
+        "items": [
+          "Content that violates any applicable laws or regulations",
+          "Hateful, discriminatory, or offensive content",
+          "Content that infringes on intellectual property rights",
+          "Sexually explicit or pornographic content",
+          "Content intended to harass, abuse, or harm others"
+        ]
+      },
+      {
+        "title": "8. Limitation of Liability",
+        "content": "The Service is provided 'as is' without any warranties. We shall not be liable for any damages arising from the use of the Service, including but not limited to direct, indirect, incidental, punitive, and consequential damages.",
+        "items": [
+          "Content that violates any applicable laws or regulations",
+          "Hateful, discriminatory, or offensive content",
+          "Content that infringes on intellectual property rights",
+          "Sexually explicit or pornographic content",
+          "Content intended to harass, abuse, or harm others"
+        ]
+      },
+      {
+        "title": "9. Changes to Terms",
+        "content": "We reserve the right to modify these Terms at any time. Continued use of the Service after any changes constitutes acceptance of the new Terms. We will notify users of material changes by posting the updated Terms on this page."
+      },
+      {
+        "title": "10. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us at support@picasso.best."       
+      },
+      {
+        "title": "10. Contact Information",
+        "content": "If you have any questions about these Terms, please contact us at support@picasso.best."       
+      }
+    ],
+    "contact": "If you have any questions about these Terms, please contact us at support@picasso.best."
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 10, 2024",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.app (\"the Service\").",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "2. Information We Don't Collect",
+        "content": "We are committed to minimal data collection. We do not:",
+        "items": [
+          "Require user registration or accounts",
+          "Store your prompts or generated images",
+          "Collect personal information",
+          "Use cookies for tracking",
+          "Share any data with third parties",
+          "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "3. Information We Process",
+        "content": "The only information we process includes:",
+        "items": [
+          "Temporary text prompts during image generation",
+          "Generated images during the creation process",
+          "Basic usage analytics (non-personally identifiable)",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "4. How We Use Information",
+        "content": "Any information processed is used solely for:",
+        "items": [
+          "Generating images in response to your prompts",
+          "Improving the Service's performance and quality",
+          "Maintaining service security and preventing abuse",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "5. Data Retention",
+        "content": "We follow a strict no-storage policy. All prompts and generated images are processed in real-time and deleted immediately after generation. We do not maintain any database of user content.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "6. Security Measures",
+        "content": "We implement appropriate technical measures to protect against unauthorized access, alteration, or destruction of the limited data we process. Our service operates on secure, encrypted connections.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "7. Children's Privacy",
+        "content": "Our Service is not intended for children under 13 years of age. We do not knowingly collect or process information from children under 13.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "8. Changes to Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "9. Your Rights",
+        "content": "Since we don't collect personal data, there is typically no user data to:",
+        "items": [
+          "Access",
+          "Correct",
+          "Delete",
+          "Export",
+          "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "10. Contact Information",
+        "content": "If you have any questions about this Privacy Policy, please contact us at support@picasso.best.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "11. Legal Basis",
+        "content": "We process the minimal required information based on legitimate interests in providing and improving the Service while maintaining user privacy and security.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      }
+    ],
+    "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.best."
+  }
+}

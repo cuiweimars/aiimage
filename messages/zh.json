@@ -1,0 +1,1191 @@
+{
+  "Onboarding": {
+    "resetTutorial": "重新开始教程",
+    "Welcome": {
+      "title": "欢迎使用 Picasso AI",
+      "description": "让我们开始创建令人惊叹的AI生成图像",
+      "slides": {
+        "0": {
+          "title": "欢迎使用 Picasso AI",
+          "description": "您的创意AI图像生成平台。让我们探索您可以在这里做什么。"
+        },
+        "1": {
+          "title": "创建惊人图像",
+          "description": "使用我们先进的AI图像生成技术，将您的想法转化为令人惊叹的视觉效果。"
+        },
+        "2": {
+          "title": "分享您的创作",
+          "description": "保存、分享并向世界展示您的AI生成杰作。"
+        }
+      },
+      "skip": "跳过导览",
+      "next": "下一步",
+      "getStarted": "开始使用"
+    },
+    "AiLab": {
+      "title": "AI实验室指南",
+      "description": "这里是奇迹发生的地方！AI实验室是您可以从文本描述创建图像的地方。",
+      "tips": {
+        "0": "从您想要看到的详细描述开始",
+        "1": "尝试不同的风格和设置",
+        "2": "将您喜欢的图像保存到您的画廊"
+      },
+      "continue": "继续",
+      "dismiss": "关闭"
+    },
+    "PromptWriting": {
+      "title": "提示词编写技巧",
+      "description": "提示词的质量极大地影响您将获得的图像。以下是一些技巧：",
+      "tips": {
+        "0": {
+          "title": "具体且详细",
+          "description": "包括关于主题、场景、光线、氛围和风格的具体细节",
+          "examples": [
+            "黄昏时分的宁静湖泊，背景是山脉，金色光线，水中倒影",
+            "夜晚的赛博朋克城市景观，霓虹灯，飞行汽车和全息广告"
+          ]
+        },
+        "1": {
+          "title": "指定艺术风格",
+          "description": "提及特定的艺术风格或艺术家以获得更一致的结果",
+          "examples": ["文艺复兴油画风格的肖像，细节丰富，逼真的光线", "印象派风格的风景，色彩鲜艳，可见的笔触"]
+        },
+        "2": {
+          "title": "使用反向提示词",
+          "description": "指定您不希望在图像中看到的内容",
+          "examples": ["反向提示词：模糊，扭曲，低质量，错误的解剖结构", "反向提示词：文本，水印，签名，过饱和的颜色"]
+        }
+      },
+      "gotIt": "明白了"
+    },
+    "Gallery": {
+      "title": "画廊指南",
+      "description": "画廊是您可以浏览、筛选和探索由您和其他用户创建的图像的地方。",
+      "features": {
+        "0": "浏览社区创建的图像",
+        "1": "按风格、日期和流行度筛选",
+        "2": "将图像保存到您的收藏中",
+        "3": "在社交媒体上分享您喜欢的图像"
+      },
+      "continue": "继续"
+    },
+    "Subscription": {
+      "title": "订阅计划",
+      "description": "升级您的账户以解锁更多功能和更高的生成限制。",
+      "plans": {
+        "free": {
+          "title": "免费计划",
+          "description": "每天有限次数的生成，标准质量"
+        },
+        "basic": {
+          "title": "基础计划",
+          "description": "更多的每日生成次数，更高质量，无水印"
+        },
+        "ultimate": {
+          "title": "旗舰计划",
+          "description": "无限生成，最高质量，优先支持"
+        }
+      },
+      "continue": "继续"
+    },
+    "Completion": {
+      "title": "一切就绪！",
+      "description": "您已完成 Picasso AI 的介绍",
+      "whatYouLearned": "您学到了什么",
+      "learningPoints": {
+        "0": "如何使用文本提示创建AI生成的图像",
+        "1": "编写有效提示词以获得更好结果的技巧",
+        "2": "如何浏览和与图像画廊互动",
+        "3": "不同订阅计划及其优势"
+      },
+      "nextSteps": {
+        "title": "下一步",
+        "description": "开始创建您自己的AI生成图像，探索画廊，或查看我们的帮助中心获取更多提示和教程。"
+      },
+      "startCreating": "开始创作"
+    }
+  },
+  "Help": {
+    "title": "帮助中心",
+    "description": "查找常见问题的答案，了解如何充分利用 Picasso AI",
+    "readGuide": "阅读指南",
+    "watchVideo": "观看视频",
+    "guides": {
+      "gettingStarted": {
+        "title": "入门指南",
+        "description": "了解使用 Picasso AI 的基础知识"
+      },
+      "promptWriting": {
+        "title": "提示词编写指南",
+        "description": "编写有效提示词的技巧"
+      },
+      "imageStyles": {
+        "title": "图像风格",
+        "description": "探索不同的艺术风格"
+      },
+      "subscriptions": {
+        "title": "订阅计划",
+        "description": "比较计划和功能"
+      }
+    },
+    "videos": {
+      "title": "视频教程",
+      "description": "通过逐步视频指南学习",
+      "items": {
+        "0": {
+          "title": "Picasso AI 入门",
+          "description": "平台的完整演示"
+        },
+        "1": {
+          "title": "高级提示词技巧",
+          "description": "掌握编写有效提示词的艺术"
+        },
+        "2": {
+          "title": "创建和管理收藏",
+          "description": "整理您生成的图像"
+        }
+      }
+    },
+    "support": {
+      "title": "需要更多帮助？",
+      "description": "我们的支持团队随时准备协助您解决任何问题",
+      "contactUs": "联系支持"
+    }
+  },
+  "ImageGenerator": {
+    "title": "AI 图像生成器",
+    "description": "使用文本提示和参考图像创建令人惊叹的 AI 图像",
+    "prompt": "提示词",
+    "promptPlaceholder": "描述您想要生成的图像...",
+    "referenceImages": "参考图像（可选）",
+    "uploadImagePlaceholder": "参考图像 {number}",
+    "upload": "上传",
+    "aspectRatio": "图像尺寸和比例",
+    "generate": "生成",
+    "generating": "生成中...",
+    "success": {
+      "title": "图像已生成",
+      "description": "您的图像已成功生成。",
+      "cachedTitle": "从缓存中检索图像",
+      "cachedDescription": "您的图像已从缓存中快速检索。"
+    },
+    "errors": {
+      "emptyPrompt": {
+        "title": "提示词为空",
+        "description": "请输入提示词来生成图像"
+      },
+      "generation": {
+        "title": "生成失败",
+        "description": "生成图像时出错。请重试。"
+      },
+      "retryLimit": {
+        "title": "达到重试限制",
+        "description": "多次重试后无法生成图像。请稍后再试。"
+      },
+      "invalidFileType": {
+        "title": "无效的文件类型",
+        "description": "请上传图片文件"
+      },
+      "fileTooLarge": {
+        "title": "文件太大",
+        "description": "文件大小应小于5MB"
+      }
+    },
+    "download": {
+      "success": {
+        "title": "下载完成",
+        "description": "图像已成功下载。"
+      },
+      "error": {
+        "title": "下载失败",
+        "description": "下载图像时出错。请重试。"
+      }
+    },
+    "emptyState": {
+      "title": "生成AI图像",
+      "description": "输入提示词并点击生成按钮创建AI驱动的图像。"
+    },
+    "quota": {
+      "remaining": "今日剩余{count}次生成",
+      "plan": "在您的{plan}计划中",
+      "upgrade": "升级"
+    },
+    "quotaExceeded": {
+      "title": "生成配额已用完",
+      "description": "您已达到每日图像生成限制。",
+      "upgrade": "升级计划"
+    },
+    "share": {
+      "title": "分享您的创作",
+      "description": "与他人分享您生成的图像",
+      "defaultText": "看看这个AI生成的图像！"
+    },
+    "download": "下载",
+    "save": "保存",
+    "status": {
+      "queued": "已排队",
+      "generating": "生成中",
+      "optimizing": "优化中",
+      "completed": "已完成",
+      "failed": "失败"
+    },
+    "estimatedTime": {
+      "seconds": "大约 {seconds} 秒",
+      "minutes": "大约 {minutes} 分钟"
+    },
+    "retry": "重试",
+    "cached": "已缓存",
+    "width": "宽度",
+    "height": "高度",
+    "ratio": "比例",
+    "aspect": {
+      "label": "比例",
+      "square": "1:1"
+    },
+    "style": {
+      "none": "无风格",
+      "realistic": "写实",
+      "cartoon": "卡通",
+      "oilPainting": "油画",
+      "cyberpunk": "赛博朋克",
+      "lowpoly": "低多边形",
+      "lineart": "线条艺术",
+      "anime": "动漫",
+      "cinematic": "电影感"
+    },
+    "color": {
+      "none": "无色彩",
+      "bw": "黑白",
+      "vivid": "鲜艳",
+      "soft": "柔和",
+      "highContrast": "高对比度",
+      "monochrome": "单色"
+    },
+    "lighting": {
+      "none": "无光照",
+      "natural": "自然光",
+      "backlight": "逆光",
+      "night": "夜景",
+      "soft": "柔光",
+      "hard": "强光",
+      "drama": "戏剧光"
+    },
+    "composition": {
+      "none": "无构图",
+      "center": "居中",
+      "ruleOfThirds": "三分法",
+      "diagonal": "对角线",
+      "closeup": "特写",
+      "longshot": "远景",
+      "blurred": "背景虚化",
+      "wide": "广角",
+      "depth": "景深",
+      "low": "低角度",
+      "high": "高角度",
+      "macro": "微距"
+    },
+    "negativePrompt": "负面提示词",
+    "highQuality": "高质量",
+    "tips": {
+      "referenceImages": "请用英文输入提示词以获得最佳效果，支持上传参考图片。"
+    },
+    "promptPlaceholder": "您想看到什么？",
+    "clear": "清除",
+    "random": "随机",
+    "generate": "生成",
+    "title": "图像生成器",
+    "colors": {
+      "cool": "冷色调",
+      "warm": "暖色调",
+      "bw": "黑白",
+      "vivid": "鲜艳",
+      "vintage": "复古"
+    },
+    "generateSuccess": "生成成功",
+    "generateSuccessDesc": "您的图像已成功生成",
+    "generateError": "生成失败",
+    "generating": "正在生成...",
+    "remainingQuota": "今日剩余 {count} 次生成",
+    "currentPlan": "当前计划：{plan}",
+    "guidanceScale": "提示词强度",
+    "imgGuidanceScale": "图片参考强度",
+    "format": {
+      "label": "格式",
+      "webp": "格式：webp",
+      "jpg": "格式：jpg",
+      "png": "格式：png"
+    }
+  },
+  "Dashboard": {
+    "title": "仪表盘",
+    "description": "管理您的账户并生成图像。",
+    "imageGenerator": "图像生成器",
+    "imageGeneratorDescription": "使用我们强大的图像生成器创建令人惊叹的 AI 生成图像。"
+  },
+  "Index": {
+    "title": "欢迎",
+    "description": "这是首页"
+  },
+  "AILabPage": {
+    "hero": {
+      "title": "AI图像生成器",
+      "subtitle": "使用AI创建令人惊叹的图像"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Picasso AI",
+      "subtitle": "数秒生成惊艳AI图片",
+      "description": "全球首个无限制、免费且极速的AI图片生成器",
+      "badge1": "100%免费",
+      "badge2": "极速生成",
+      "badge3": "无需登录",
+      "badge4": "无限生成",
+      "primaryCta": "开始创作",
+      "secondaryCta": "浏览画廊"
+    },
+    "generator": {
+      "title": "AI图像生成器",
+      "subtitle": "使用文本描述创建令人惊叹的AI图像"
+    },
+    "features": {
+      "title": "强大功能",
+      "subtitle": "探索Picasso AI提供的所有功能"
+    },
+    "gallery": {
+      "title": "作品展示",
+      "subtitle": "浏览由我们的AI生成的精彩作品",
+      "viewMore": "查看更多"
+    },
+    "stats": {
+      "title": "数据统计",
+      "subtitle": "看看我们的用户创造了什么"
+    },
+    "cta": {
+      "title": "开始您的AI创作之旅",
+      "subtitle": "立即注册,开始创建令人惊叹的AI图像",
+      "primaryCta": "免费注册",
+      "secondaryCta": "查看价格"
+    }
+  },
+  "Features": {
+    "title": "Picasso AI 的主要特点",
+    "subtitle": "体验下一代 AI 图像生成：强大、免费且注重隐私。",
+    "items": {
+      "0": {
+        "title": "零成本创作",
+        "description": "世界上第一个完全免费的 AI 图像生成器，没有使用限制或注册要求。"
+      },
+      "1": {
+        "title": "最先进的质量",
+        "description": "由世界上最先进模型驱动，提供具有卓越细节和艺术风格控制的照片级逼真图像。"
+      },
+      "2": {
+        "title": "高级文本理解",
+        "description": "卓越的文本到图像功能，能够准确解释复杂的提示和文本叠加功能。"
+      },
+      "3": {
+        "title": "闪电般的生成速度",
+        "description": "优化的推理管道，确保快速图像生成而不影响质量。"
+      },
+      "4": {
+        "title": "增强的隐私保护",
+        "description": "雾数据保密策略 - 你的提示和生成的图像永远不会存储在我们的服务器上。"
+      },
+      "5": {
+        "title": "多风格支持",
+        "description": "创建跨各种艺术风格的图像，从照片级真实到动漫，从油画到数字艺术。"
+      }
+    }
+  },
+  "Stats": {
+    "title": "影响",
+    "subtitle": "数百万用户的信赖",
+    "description": "加入世界上最大的免费 AI 图像生成器社区",
+    "items": {
+      "0": {
+        "label": "活跃用户",
+        "value": "300 万+",
+        "desc": "月活跃用户"
+      },
+      "1": {
+        "label": "创建的图像",
+        "value": "1,530",
+        "desc": "每分钟生成的图像数量"
+      },
+      "2": {
+        "label": "用户评分",
+        "value": "4.9",
+        "desc": "平均图像质量评分"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "常见问题",
+    "subtitle": "还有其他问题？请通过 support@picassoai.com 联系我们",
+    "items": {
+      "0": {
+        "question": "什么是Picasso AI以及它是如何工作的？",
+        "answer": "Picasso AI是世界上第一个完全免费、无限量的AI图像生成器，由最先进模型驱动。它允许你从文本描述创建高质量的图像，无需任何注册或使用限制。"
+      },
+      "1": {
+        "question": "Picasso AI真的可以免费使用吗？",
+        "answer": "是的，Picasso AI是完全免费使用的！我们致力于成为世界上最大、最包容的免费AI图像生成器。没有隐藏费用，无需信用卡，也没有使用限制。"
+      },
+      "2": {
+        "question": "Picasso AI与其他AI图像生成器有何不同？",
+        "answer": "Picasso AI是唯一提供对强大模型免费访问的平台。我们提供卓越的图像质量、快速的生成速度和完整的隐私保护，所有这些都无需任何成本或注册要求。"
+      },
+      "3": {
+        "question": "我需要创建一个帐户才能使用Picasso AI吗？",
+        "answer": "不，你不需要创建帐户或注册。只需访问picassoai.com并立即开始生成图像。我们相信每个人都能无障碍地使用AI。"
+      },
+      "4": {
+        "question": "我可以用Picasso AI创建哪些类型的图像？",
+        "answer": "你可以创建各种各样的图像，包括照片写实场景、艺术插画、数字艺术、动漫风格图像等。Picasso AI模型理解复杂的提示并支持多样化的视觉风格。"
+      },
+      "5": {
+        "question": "Picasso AI如何保护我的隐私？",
+        "answer": "我们非常重视隐私。我们不会在我们的服务器上存储你的提示或生成的图像。你的创作完全是私人的，并在生成后被彻底删除。"
+      },
+      "6": {
+        "question": "什么是最先进模型？",
+        "answer": "Picasso AI采用最先进的AI模型，以其卓越的图像质量、提示准确性和风格多功能性而闻名。通常使用这些模型很昂贵，但Picasso AI使其免费提供给所有人。"
+      },
+      "7": {
+        "question": "使用Picasso AI有什么限制吗？",
+        "answer": "虽然Picasso AI是免费且无限制的，但我们保持标准的内容审核，以确保合理使用。该平台目前专为Web使用而设计，移动应用程序计划在未来推出。"
+      },
+      "8": {
+        "question": "我可以将生成的图像用于商业用途吗？",
+        "answer": "是的，你拥有使用Picasso AI生成的图像的版权。你可以将它们用于个人和商业目的，使其非常适合创作者和企业。"
+      },
+      "9": {
+        "question": "Picasso AI是否可在移动设备上使用？",
+        "answer": "目前，Picasso AI可通过其网站picassoai.com访问，该站在移动端也运行良好。我们正在积极开发专用移动应用程序，以便尽快提供更优体验。"
+      },
+      "10": {
+        "question": "Picasso AI支持哪些语言？",
+        "answer": "Picasso AI支持多语言界面和多语言提示输入，方便全球用户使用。"
+      },
+      "11": {
+        "question": "遇到问题如何获得支持？",
+        "answer": "如有任何疑问或技术问题，请随时通过support@picassoai.com联系我们的支持团队。"
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "用户评价",
+    "subtitle": "听听我们的用户怎么说",
+    "roles": {
+      "designer": "UI/UX设计师",
+      "developer": "全栈开发者",
+      "marketer": "数字营销专家",
+      "manager": "产品经理",
+      "illustrator": "自由插画师"
+    },
+    "items": {
+      "0": {
+        "content": "Picasso AI彻底改变了我的设计工作流程。它能够快速将我的想法转化为视觉概念,大大提高了我的工作效率。"
+      },
+      "1": {
+        "content": "作为一个开发者,我经常需要为项目创建各种图像资源。Picasso AI让我能够快速生成所需的图像,而且质量令人惊叹。"
+      },
+      "2": {
+        "content": "在营销工作中,我们需要大量高质量的视觉内容。Picasso AI帮助我们快速创建吸引人的图像,提升了我们的营销效果。"
+      },
+      "3": {
+        "content": "Picasso AI让我的产品原型更具表现力,节省了大量设计时间。强烈推荐给所有产品人!"
+      },
+      "4": {
+        "content": "AI生成的图像为我的创作带来了无限灵感,Picasso AI是我最喜欢的工具之一。"
+      }
+    }
+  },
+  "Header": {
+    "home": "首页",
+    "pricing": "价格",
+    "gallery": "画廊",
+    "blog": "博客",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "dashboard": "仪表盘",
+    "settings": "设置",
+    "signOut": "退出登录",
+    "signIn": "登录",
+    "signUp": "注册",
+    "profile": "个人资料"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "切换语言"
+  },
+  "ThemeToggle": {
+    "toggleTheme": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "Footer": {
+    "description": "在几秒钟内创建令人惊叹的 AI 图像。",
+    "product": "产品",
+    "pricing": "价格",
+    "gallery": "画廊",
+    "aiLab": "AI实验室",
+    "company": "公司",
+    "about": "关于我们",
+    "blog": "博客",
+    "contact": "联系我们",
+    "legal": "法律",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "allRightsReserved": "保留所有权利"
+  },
+  "RegisterPage": {
+    "title": "注册",
+    "subtitle": "创建新账户",
+    "haveAccount": "已有账户？",
+    "signIn": "登录"
+  },
+  "RegisterForm": {
+    "name": "姓名",
+    "namePlaceholder": "请输入您的姓名",
+    "email": "邮箱",
+    "password": "密码",
+    "referralCode": "推荐码",
+    "createAccount": "创建账户",
+    "creating": "创建中...",
+    "orContinueWith": "或继续使用",
+    "validation": {
+      "name": "姓名至少需要2个字符",
+      "email": "请输入有效的邮箱地址",
+      "password": "密码至少需要8个字符"
+    },
+    "success": {
+      "title": "注册成功",
+      "description": "您的账户已成功创建"
+    },
+    "errors": {
+      "title": "注册失败",
+      "unknown": "注册过程中发生错误，请稍后重试",
+      "userExists": "该邮箱已被注册",
+      "timeout": "服务器响应超时，请稍后重试",
+      "failedFetch": "无法连接服务器，请检查网络或稍后重试"
+    }
+  },
+  "PricingPage": {
+    "hero": {
+      "title": "升级你的套餐",
+      "subtitle": "选择适合你的套餐，解锁更多AI图片生成次数。"
+    },
+    "plans": {
+      "basic": {
+        "name": "基础版",
+        "description": "适合个人和小型项目。",
+        "features": {
+          "0": "无限图片生成",
+          "1": "标准画质",
+          "2": "无水印",
+          "3": "基础支持",
+          "4": "适合个人和小型项目"
+        },
+        "button": "升级到基础版",
+        "cta": "选择基础版"
+      },
+      "ultimate": {
+        "name": "旗舰版",
+        "description": "适合专业人士和企业。",
+        "features": {
+          "0": "无限图片生成",
+          "1": "高级画质",
+          "2": "无水印",
+          "3": "优先支持",
+          "4": "高级自定义",
+          "5": "高分辨率图片",
+          "6": "商用授权"
+        },
+        "cta": "选择旗舰版"
+      },
+      "enterprise": {
+        "name": "企业版",
+        "description": "为大型团队和企业定制解决方案。",
+        "features": {
+          "0": "自定义额度",
+          "1": "专属支持",
+          "2": "SLA与合规",
+          "3": "团队管理",
+          "4": "定制集成",
+          "5": "大批量"
+        },
+        "cta": "联系销售",
+        "price": "联系我们"
+      },
+      "free": {
+        "name": "免费版",
+        "features": {
+          "0": "无限图片生成",
+          "1": "极速生成",
+          "2": "无需登录",
+          "3": "100%免费"
+        },
+        "button": "免费使用"
+      }
+    },
+    "billing": {
+      "monthly": "按月计费",
+      "yearly": "按年计费",
+      "discount": "立省20%"
+    },
+    "perMonth": "/月",
+    "perYear": "/年",
+    "popular": "最受欢迎"
+  },
+  "GalleryPage": {
+    "title": "画廊",
+    "description": "浏览、筛选并探索由您和其他用户创建的图像。",
+    "filter": "筛选",
+    "sort": "排序",
+    "loadMore": "加载更多",
+    "loading": "加载中...",
+    "empty": "未找到图像。",
+    "error": "加载图像失败，请重试。",
+    "createdBy": "由 {name} 创建",
+    "date": "日期",
+    "popularity": "人气",
+    "style": "风格",
+    "all": "全部",
+    "favorites": "收藏"
+  },
+  "GalleryHeader": {
+    "title": "画廊",
+    "subtitle": "探索和管理您的AI生成图像。",
+    "filter": "筛选",
+    "sort": "排序",
+    "upload": "上传",
+    "refresh": "刷新",
+    "search": "搜索",
+    "clear": "清除",
+    "myFavorites": "我的收藏",
+    "myUploads": "我的上传",
+    "allImages": "全部图片",
+    "showing": "显示",
+    "sort": {
+      "label": "排序",
+      "options": {
+        "latest": "最新",
+        "oldest": "最早"
+      }
+    },
+    "filter": {
+      "label": "筛选",
+      "options": {
+        "all": "全部",
+        "landscape": "风景",
+        "portrait": "人像",
+        "abstract": "抽象"
+      }
+    }
+  },
+  "GalleryGrid": {
+    "download": {
+      "success": {
+        "title": "下载成功",
+        "description": "图像已成功下载"
+      },
+      "error": {
+        "title": "下载失败",
+        "description": "下载图像时出错，请重试"
+      },
+      "label": "下载"
+    },
+    "share": {
+      "clipboard": {
+        "title": "链接已复制",
+        "description": "图像链接已复制到剪贴板"
+      },
+      "error": {
+        "title": "分享失败",
+        "description": "分享图像时出错，请重试"
+      },
+      "label": "分享"
+    },
+    "noImages": "暂无图像",
+    "view": "查看",
+    "imageDetails": "图像详情"
+  },
+  "UserGalleryGrid": {
+    "downloadSuccess": "下载成功",
+    "downloadSuccessDescription": "图像已成功下载",
+    "error": "错误",
+    "errorDownloading": "下载图像时出错，请重试",
+    "noImagesInCollection": "此集合中暂无图像",
+    "noImages": "暂无图像",
+    "actions": "操作",
+    "download": "下载",
+    "share": "分享",
+    "view": "查看",
+    "removeFromCollection": "从集合中移除",
+    "removeFromCollectionDescription": "确定要从集合中移除此图像吗？",
+    "deleteImage": "删除图像",
+    "deleteImageDescription": "确定要删除此图像吗？此操作无法撤销。",
+    "cancel": "取消",
+    "processing": "处理中...",
+    "remove": "移除",
+    "delete": "删除",
+    "shareImage": "分享图像",
+    "shareImageDescription": "与他人分享您的图像",
+    "shareImageTitle": "查看我的AI生成图像",
+    "viewImage": "查看图像"
+  },
+  "UserGalleryHeader": {
+    "imageCount": "{count}张图像",
+    "collectionCount": "{count}个集合",
+    "createCollection": "创建集合",
+    "settings": "设置",
+    "share": "分享",
+    "createNewCollection": "创建新集合",
+    "createNewCollectionDescription": "创建一个新的集合来组织您的图像",
+    "collectionName": "集合名称",
+    "collectionNamePlaceholder": "输入集合名称",
+    "cancel": "取消",
+    "creating": "创建中...",
+    "create": "创建",
+    "shareGallery": "分享画廊",
+    "shareGalleryDescription": "与他人分享您的画廊",
+    "shareTitle": "查看{name}的AI生成图像"
+  },
+  "BlogPage": {
+    "title": "博客",
+    "description": "阅读最新的AI图像生成与创意设计相关文章。",
+    "empty": "暂无博客文章。",
+    "loading": "加载中...",
+    "error": "加载博客文章失败，请稍后重试。",
+    "author": "作者",
+    "date": "日期",
+    "readMore": "阅读全文",
+    "back": "返回博客列表",
+    "category": "分类",
+    "tags": "标签",
+    "featuredPost": "精选文章",
+    "recentPosts": "最新文章",
+    "search": "搜索",
+    "searchPlaceholder": "输入关键词搜索文章...",
+    "noResults": "未找到相关博客文章。",
+    "allCategories": "全部分类",
+    "allTags": "全部标签",
+    "pagination": {
+      "next": "下一页",
+      "previous": "上一页"
+    },
+    "comments": "评论",
+    "relatedPosts": "相关文章",
+    "edit": "编辑",
+    "updatedAt": "更新于 {date}",
+    "publishedAt": "发表于 {date}",
+    "minutesToRead": "{count} 分钟阅读",
+    "by": "作者：{name}",
+    "share": "分享",
+    "next": "下一篇",
+    "previous": "上一篇",
+    "noPosts": "暂无博客文章"
+  },
+  "BlogSearch": {
+    "title": "搜索博客",
+    "search": "搜索",
+    "placeholder": "搜索博客文章...",
+    "button": "搜索",
+    "label": "搜索",
+    "noResults": "未找到相关结果。",
+    "recentSearches": "最近搜索",
+    "clear": "清除",
+    "searching": "搜索中...",
+    "error": "搜索失败，请稍后重试。"
+  },
+  "BlogCategories": {
+    "title": "博客分类",
+    "all": "全部",
+    "allCategories": "全部分类",
+    "uncategorized": "未分类",
+    "noCategories": "暂无分类",
+    "loading": "加载中...",
+    "error": "加载分类失败，请稍后重试。"
+  },
+  "BlogCard": {
+    "readMore": "阅读全文",
+    "publishedAt": "发表于 {date}",
+    "updatedAt": "更新于 {date}",
+    "minutesToRead": "{count} 分钟阅读",
+    "by": "作者：{name}",
+    "category": "分类",
+    "tags": "标签",
+    "featured": "精选",
+    "comments": "评论",
+    "noExcerpt": "暂无摘要"
+  },
+  "BlogPostPage": {
+    "title": "博客详情",
+    "subtitle": "深入阅读AI与创意设计的最新文章。",
+    "back": "返回博客列表",
+    "backToBlog": "返回博客首页",
+    "author": "作者",
+    "date": "日期",
+    "category": "分类",
+    "tags": "标签",
+    "minutesToRead": "{count} 分钟阅读",
+    "readingTime": "阅读时长：{count} 分钟",
+    "readTime": "预计阅读 {count} 分钟",
+    "timeToRead": "{count} 分钟阅读",
+    "wordCount": "{count} 字",
+    "comments": "评论",
+    "share": "分享",
+    "shareTo": "分享到",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "print": "打印",
+    "relatedPosts": "相关文章",
+    "previous": "上一篇",
+    "next": "下一篇",
+    "nextPost": "下一篇文章",
+    "prevPost": "上一篇文章",
+    "loading": "加载中...",
+    "error": "未找到该文章或加载失败。",
+    "notFound": "未找到该文章。",
+    "draft": "草稿",
+    "original": "原文",
+    "edit": "编辑",
+    "updatedAt": "更新于 {date}",
+    "publishedAt": "发表于 {date}",
+    "firstPublished": "首次发布：{date}",
+    "lastUpdated": "最后更新：{date}",
+    "toc": "目录",
+    "like": "点赞",
+    "likes": "点赞数",
+    "dislike": "点踩",
+    "dislikes": "点踩数",
+    "views": "阅读量",
+    "metaDescription": "AI与创意设计领域的深度博客文章。",
+    "metaKeywords": "AI, 图像生成, 创意设计, 博客"
+  },
+  "BlogAuthor": {
+    "title": "作者信息",
+    "bio": "作者简介",
+    "posts": "作者的文章",
+    "readMore": "查看更多",
+    "noBio": "暂无简介",
+    "follow": "关注作者",
+    "following": "已关注",
+    "contact": "联系作者",
+    "website": "个人网站",
+    "social": "社交账号",
+    "writtenBy": "作者：{name}"
+  },
+  "BlogShareButtons": {
+    "title": "分享",
+    "share": "分享",
+    "shareTo": "分享到",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "shareSuccess": "分享成功",
+    "linkCopied": {
+      "title": "链接已复制"
+    },
+    "wechat": "微信",
+    "qq": "QQ",
+    "weibo": "微博",
+    "twitter": "推特",
+    "facebook": "脸书",
+    "linkedin": "领英",
+    "email": "邮件",
+    "more": "更多",
+    "error": "分享失败，请稍后重试。"
+  },
+  "BlogComments": {
+    "title": "评论",
+    "addComment": "添加评论",
+    "placeholder": "写下你的评论...",
+    "submit": "提交",
+    "cancel": "取消",
+    "loading": "加载中...",
+    "error": "加载评论失败，请稍后重试。",
+    "submitError": "提交失败，请稍后重试。",
+    "empty": "暂无评论，快来抢沙发吧！",
+    "success": {
+      "title": "评论已提交！"
+    },
+    "reply": "回复",
+    "replies": "条回复",
+    "delete": "删除",
+    "confirmDelete": "确定要删除这条评论吗？",
+    "loginToComment": "请登录后评论",
+    "name": "昵称",
+    "email": "邮箱",
+    "required": "必填",
+    "postedAt": "发表于 {date}",
+    "validation": {
+      "name": "请输入昵称",
+      "email": "请输入有效的邮箱地址",
+      "comment": "请输入评论内容",
+      "required": "此项为必填",
+      "invalidEmail": "邮箱格式不正确",
+      "minLength": "内容太短",
+      "maxLength": "内容太长"
+    },
+    "leaveComment": "发表评论",
+    "namePlaceholder": "请输入昵称",
+    "emailPlaceholder": "请输入邮箱",
+    "comment": "评论内容",
+    "commentPlaceholder": "请输入评论内容"
+  },
+  "LoginPage": {
+    "title": "登录",
+    "subtitle": "请输入账号密码登录",
+    "noAccount": "还没有账号？",
+    "signUp": "注册"
+  },
+  "LoginForm": {
+    "email": "邮箱",
+    "password": "密码",
+    "signIn": "登录",
+    "signingIn": "正在登录...",
+    "orContinueWith": "或继续使用",
+    "errors": {
+      "title": "登录失败",
+      "invalidCredentials": "邮箱或密码错误"
+    },
+    "validation": {
+      "email": "请输入有效的邮箱地址",
+      "password": "密码至少需要8个字符"
+    }
+  },
+  "SettingsPage": {
+    "title": "设置",
+    "description": "管理您的账户设置和偏好",
+    "help": {
+      "title": "需要帮助？",
+      "description": "如果您需要重新开始教程或遇到任何问题，请随时联系我们。"
+    }
+  },
+  "ProfilePage": {
+    "title": "个人资料",
+    "planAndBilling": "套餐和账单",
+    "upgrade": "可升级",
+    "currentPlan": "当前套餐",
+    "ultimate": "旗舰版",
+    "basic": "基础版",
+    "free": {
+      "name": "免费版",
+      "features": {
+        "0": "无限图片生成",
+        "1": "极速生成",
+        "2": "无需登录",
+        "3": "100%免费"
+      },
+      "button": "免费使用"
+    },
+    "currentFeatures": "当前功能",
+    "feature": {
+      "unlimited": "无限图像生成",
+      "speed": "基本生成速度（20秒）",
+      "optimize": "基本优化功能"
+    },
+    "premiumTitle": "高级权益",
+    "premium": {
+      "speed": "5倍速度生成",
+      "noWatermark": "无水印",
+      "priority": "优先队列",
+      "private": "私有生成"
+    },
+    "upgradeDesc": "仅需升级到高级版 每月 10 美元（按年计费）",
+    "upgradeNow": "立即升级",
+    "subscriptionStatus": "订阅状态",
+    "basic": {
+      "rights": "基础套餐权益：标准画质、无水印、基础支持。"
+    },
+    "ultimate": {
+      "rights": "旗舰套餐权益：高级画质、优先支持、私有生成、高清图像、提前体验新功能。"
+    }
+  },
+  "SubscribePage": {
+    "title": "选择订阅套餐",
+    "plans": {
+      "basic": {
+        "name": "基础版",
+        "features": {
+          "0": "无限图片生成",
+          "1": "标准画质",
+          "2": "无水印",
+          "3": "基础支持",
+          "4": "适合个人和小型项目"
+        },
+        "button": "升级到基础版"
+      },
+      "free": {
+        "name": "免费版",
+        "features": {
+          "0": "无限图片生成",
+          "1": "极速生成",
+          "2": "无需登录",
+          "3": "100%免费"
+        },
+        "button": "免费使用"
+      },
+      "pro": {
+        "name": "旗舰版",
+        "features": {
+          "0": "无限图片生成",
+          "1": "高级画质",
+          "2": "无水印",
+          "3": "优先支持",
+          "4": "适合专业和企业用户",
+          "5": "高级优化功能",
+          "6": "私有生成",
+          "7": "高清图像生成",
+          "8": "提前体验新功能"
+        },
+        "button": "升级到旗舰版",
+        "tag": "最受欢迎"
+      },
+      "ultimate": {
+        "name": "旗舰版",
+        "features": {
+          "0": "无限图片生成",
+          "1": "高级画质",
+          "2": "无水印",
+          "3": "优先支持",
+          "4": "适合专业和企业用户",
+          "5": "高级优化功能",
+          "6": "私有生成",
+          "7": "高清图像生成",
+          "8": "提前体验新功能"
+        },
+        "button": "升级到旗舰版",
+        "tag": "最受欢迎"
+      },
+      "enterprise": {
+        "name": "企业版",
+        "features": {
+          "0": "自定义额度",
+          "1": "专属支持",
+          "2": "SLA与合规",
+          "3": "团队管理",
+          "4": "定制集成",
+          "5": "大批量"
+        },
+        "button": "即将推出"
+      }
+    },
+    "billing": {
+      "month": "按月计费",
+      "year": "按年计费",
+      "perMonth": "每月"
+    },
+    "subscribe": "订阅{plan}",
+    "jumping": "跳转中...",
+    "currentSubscribed": "当前已订阅{plan}，到期日：{expiry}",
+    "tips": {
+      "autoActive": "支付成功后，会员权益会自动激活。"
+    },
+    "errors": {
+      "createSessionFailed": "创建支付会话失败，请重试。",
+      "network": "网络错误，请稍后重试。"
+    }
+  },
+  "SubscriptionPage": {
+    "title": "订阅管理",
+    "description": "查看和管理您的订阅、用量和历史记录。",
+    "tabs": {
+      "overview": "总览",
+      "usage": "用量",
+      "history": "历史"
+    }
+  },
+  "upgradeNow": "立即升级",
+  "BlogRelatedPosts": {
+    "title": "相关文章",
+    "empty": "暂无相关文章"
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 10, 2024",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.app (\"the Service\").",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "2. Information We Don't Collect",
+        "content": "We are committed to minimal data collection. We do not:",
+        "items": [
+          "Require user registration or accounts",
+          "Store your prompts or generated images",
+          "Collect personal information",
+          "Use cookies for tracking",
+          "Share any data with third parties",
+          "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "3. Information We Process",
+        "content": "The only information we process includes:",
+        "items": [
+          "Temporary text prompts during image generation",
+          "Generated images during the creation process",
+          "Basic usage analytics (non-personally identifiable)",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "4. How We Use Information",
+        "content": "Any information processed is used solely for:",
+        "items": [
+          "Generating images in response to your prompts",
+          "Improving the Service's performance and quality",
+          "Maintaining service security and preventing abuse",
+          "", "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "5. Data Retention",
+        "content": "We follow a strict no-storage policy. All prompts and generated images are processed in real-time and deleted immediately after generation. We do not maintain any database of user content.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "6. Security Measures",
+        "content": "We implement appropriate technical measures to protect against unauthorized access, alteration, or destruction of the limited data we process. Our service operates on secure, encrypted connections.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "7. Children's Privacy",
+        "content": "Our Service is not intended for children under 13 years of age. We do not knowingly collect or process information from children under 13.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "8. Changes to Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "9. Your Rights",
+        "content": "Since we don't collect personal data, there is typically no user data to:",
+        "items": [
+          "Access",
+          "Correct",
+          "Delete",
+          "Export",
+          "", "", "", "", "", ""
+        ]
+      },
+      {
+        "title": "10. Contact Information",
+        "content": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      },
+      {
+        "title": "11. Legal Basis",
+        "content": "We process the minimal required information based on legitimate interests in providing and improving the Service while maintaining user privacy and security.",
+        "items": ["", "", "", "", "", "", "", "", "", ""]
+      }
+    ],
+    "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app."
+  }
+}
