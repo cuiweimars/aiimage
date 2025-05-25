@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server"
-import GalleryGridWrapper from "@/components/gallery/gallery-grid-wrapper"
+import dynamic from "next/dynamic"
+const GalleryGridWrapper = dynamic(() => import("@/components/gallery/gallery-grid-wrapper"))
 
 export default async function GalleryPage() {
   const t = await getTranslations("GalleryPage")
