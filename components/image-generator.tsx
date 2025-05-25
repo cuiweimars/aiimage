@@ -731,3 +731,5 @@ export function AIImageGeneratorPanel() {
     </>
   )
 }
+
+export { AIImageGeneratorPanel as ImageGenerator }
