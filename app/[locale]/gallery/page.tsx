@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server"
-import { GalleryGrid } from "@/components/gallery/gallery-grid"
+import GalleryGridWrapper from "@/components/gallery/gallery-grid-wrapper"
 
 export default async function GalleryPage() {
   const t = await getTranslations("GalleryPage")
@@ -20,7 +20,7 @@ export default async function GalleryPage() {
         <h1 className="text-4xl md:text-5xl font-bold tracking-tighter">{t("title")}</h1>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">{t("description")}</p>
       </div>
-      <GalleryGrid images={images} />
+      <GalleryGridWrapper images={images} />
     </div>
   )
 }
