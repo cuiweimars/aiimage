@@ -522,7 +522,11 @@
     "popularity": "Popularity",
     "style": "Style",
     "all": "All",
-    "favorites": "Favorites"
+    "favorites": "Favorites",
+    "subtitle": "Curated AI images from the community",
+    "badge1": "High Quality",
+    "badge2": "Multilingual",
+    "badge3": "Free"
   },
   "GalleryHeader": {
     "title": "Gallery",

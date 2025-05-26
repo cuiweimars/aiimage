@@ -492,5 +492,11 @@
       }
     ],
     "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app."
+  },
+  "GalleryPage": {
+    "subtitle": "コミュニティ厳選AI画像",
+    "badge1": "高品質",
+    "badge2": "多言語対応",
+    "badge3": "無料"
   }
 } 

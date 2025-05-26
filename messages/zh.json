@@ -653,7 +653,11 @@
     "popularity": "人气",
     "style": "风格",
     "all": "全部",
-    "favorites": "收藏"
+    "favorites": "收藏",
+    "subtitle": "社区精选AI图片",
+    "badge1": "高质量",
+    "badge2": "多语言",
+    "badge3": "免费"
   },
   "GalleryHeader": {
     "title": "画廊",
