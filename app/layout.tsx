@@ -127,6 +127,17 @@ export default async function RootLayout({
         `,
           }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRZS5N4TJP"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YRZS5N4TJP');
+            `,
+          }}
+        />
       </head>
       <body className={`${inter.className} min-h-screen bg-background antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>

@@ -100,6 +100,7 @@
     "color": {
       "none": "No Color",
       "bw": "Black & White",
+      "blackAndWhite": "Black and White",
       "vivid": "Vivid",
       "soft": "Soft",
       "highContrast": "High Contrast",
@@ -112,7 +113,9 @@
       "night": "Night",
       "soft": "Soft",
       "hard": "Hard Light",
-      "drama": "Dramatic Light"
+      "drama": "Dramatic Light",
+      "strong": "Strong Light",
+      "dramatic": "Dramatic Light"
     },
     "composition": {
       "none": "No Composition",
@@ -419,7 +422,7 @@
       },
       "11": {
         "question": "How to get support if I encounter problems?",
-        "answer": "If you have any questions or technical issues, please contact our support team at support@picasso.app."
+        "answer": "If you have any questions or technical issues, please contact our support team at support@picasso.best."
       }
     }
   },
@@ -497,7 +500,11 @@
     "validation": {
       "name": "Name must be at least 2 characters",
       "email": "Please enter a valid email address",
-      "password": "Password must be at least 8 characters"
+      "password": "Please enter your password",
+      "required": "This field is required",
+      "minLength": "Too short",
+      "maxLength": "Too long",
+      "invalid": "Invalid value"
     },
     "success": {
       "title": "Registration Successful",
@@ -726,7 +733,8 @@
     "imageDetails": "Image Details",
     "share": {
       "label": "Share"
-    }
+    },
+    "noImages": "No images found."
   },
   "SocialShareButtons": {
     "linkCopied": "Link copied!",
@@ -742,7 +750,7 @@
     "sections": [
       {
         "title": "1. Introduction",
-        "content": "Welcome to Picasso. By accessing or using our AI image generation service at picasso.app (\"the Service\"), you agree to be bound by these Terms of Service (\"Terms\"). Please read these Terms carefully before using the Service."
+        "content": "Welcome to Picasso. By accessing or using our AI image generation service at picasso.best (\"the Service\"), you agree to be bound by these Terms of Service (\"Terms\"). Please read these Terms carefully before using the Service."
       },
       {
         "title": "2. Service Description",
@@ -814,7 +822,7 @@
     "sections": [
       {
         "title": "1. Introduction",
-        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.app (\"the Service\").",
+        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.best (\"the Service\").",
         "items": ["", "", "", "", "", "", "", "", "", ""]
       },
       {
@@ -892,5 +900,28 @@
       }
     ],
     "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.best."
+  },
+  "LoginPage": {
+    "title": "Sign In",
+    "subtitle": "Welcome back! Please sign in to continue.",
+    "description": "Please sign in to your account",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up"
+  },
+  "LoginForm": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "error": "Login failed. Please check your credentials.",
+    "validation": {
+      "email": "Please enter a valid email address",
+      "password": "Please enter your password",
+      "required": "This field is required",
+      "minLength": "Too short",
+      "maxLength": "Too long",
+      "invalid": "Invalid value"
+    },
+    "orContinueWith": "Or continue with"
   }
 }

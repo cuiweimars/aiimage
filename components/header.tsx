@@ -34,12 +34,12 @@ export function Header() {
   ]
 
   return (
-    <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="border-b bg-black backdrop-blur supports-[backdrop-filter]:bg-black text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
+        <div className="flex lg:flex-1 items-center">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">OmniGen AI</span>
-            <Logo className="h-8 w-auto" />
+            <Logo className="h-8 w-auto text-white" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -58,7 +58,7 @@ export function Header() {
               key={item.name}
               href={item.href}
               className={`text-sm font-medium transition-colors hover:text-primary ${
-                pathname === item.href ? "text-primary" : "text-muted-foreground"
+                pathname === item.href ? "text-primary" : "text-white"
               }`}
             >
               {item.name}
@@ -71,7 +71,7 @@ export function Header() {
           {session ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="relative h-8 w-8 rounded-full">
+                <Button variant="ghost" className="relative h-8 w-8 rounded-full text-white">
                   <Avatar className="h-8 w-8">
                     <AvatarImage src={session.user?.image || ""} alt={session.user?.name || ""} />
                     <AvatarFallback>
@@ -107,7 +107,7 @@ export function Header() {
             </DropdownMenu>
           ) : (
             <>
-              <Button variant="ghost" asChild>
+              <Button variant="ghost" asChild className="text-white">
                 <Link href="/login">{t("signIn")}</Link>
               </Button>
               <Button asChild>
@@ -122,7 +122,7 @@ export function Header() {
       {isMenuOpen && (
         <div className="lg:hidden">
           <div className="fixed inset-0 z-50" />
-          <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 text-white">
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">OmniGen AI</span>
@@ -140,7 +140,7 @@ export function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-accent"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-accent text-white"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.name}
@@ -170,7 +170,7 @@ export function Header() {
                       </div>
                       <Link
                         href="/profile"
-                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent"
+                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent text-white"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {t("profile", { defaultValue: "个人资料" })}
@@ -189,14 +189,14 @@ export function Header() {
                     <>
                       <Link
                         href="/login"
-                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent"
+                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent text-white"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {t("signIn")}
                       </Link>
                       <Link
                         href="/register"
-                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent"
+                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-accent text-white"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {t("signUp")}

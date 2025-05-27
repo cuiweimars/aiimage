@@ -1,39 +1,50 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
-
-const DATA_PATH = path.resolve(process.cwd(), 'data/gallery.json')
-
-function readGallery() {
-  try {
-    const data = fs.readFileSync(DATA_PATH, 'utf-8')
-    return JSON.parse(data)
-  } catch {
-    return []
-  }
-}
-
-function writeGallery(items: any[]) {
-  fs.writeFileSync(DATA_PATH, JSON.stringify(items, null, 2), 'utf-8')
-}
+import { createClient } from '@/lib/supabase/server'
+import { getServerSession } from 'next-auth'
+import { authOptions } from '@/lib/auth'
 
 export async function GET() {
-  const items = readGallery()
-  return NextResponse.json(items.slice(0, 16))
+  const supabase = createClient()
+  const { data: items, error } = await supabase
+    .from('gallery')
+    .select('*')
+    .order('created_at', { ascending: false })
+    .limit(16)
+
+  if (error) {
+    console.error('Error fetching gallery items:', error)
+    return NextResponse.json({ error: 'Failed to fetch gallery items' }, { status: 500 })
+  }
+
+  return NextResponse.json(items || [])
 }
 
 export async function POST(req: NextRequest) {
+  let session = null
+  try {
+    session = await getServerSession(authOptions)
+  } catch {}
+
   const body = await req.json()
   if (!body.imageUrl) {
     return NextResponse.json({ error: '缺少图片URL' }, { status: 400 })
   }
-  const items = readGallery()
-  const newItem = {
-    imageUrl: body.imageUrl,
-    prompt: body.prompt || '',
-    createdAt: Date.now(),
+
+  const supabase = createClient()
+  const { data, error } = await supabase
+    .from('gallery')
+    .insert({
+      image_url: body.imageUrl,
+      prompt: body.prompt || '',
+      user_id: session?.user?.id || null
+    })
+    .select()
+    .single()
+
+  if (error) {
+    console.error('Error inserting gallery item:', error)
+    return NextResponse.json({ error: 'Failed to insert gallery item' }, { status: 500 })
   }
-  items.unshift(newItem)
-  writeGallery(items)
-  return NextResponse.json({ success: true })
+
+  return NextResponse.json(data)
 } 

@@ -414,7 +414,7 @@
     "sections": [
       {
         "title": "1. Introduction",
-        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.app (\"the Service\").",
+        "content": "At Picasso, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI image generation service at picasso.best (\"the Service\").",
         "items": ["", "", "", "", "", "", "", "", "", ""]
       },
       {
@@ -482,7 +482,7 @@
       },
       {
         "title": "10. Contact Information",
-        "content": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app.",
+        "content": "If you have any questions about this Privacy Policy, please contact us at support@picasso.best.",
         "items": ["", "", "", "", "", "", "", "", "", ""]
       },
       {
@@ -491,7 +491,7 @@
         "items": ["", "", "", "", "", "", "", "", "", ""]
       }
     ],
-    "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.app."
+    "contact": "If you have any questions about this Privacy Policy, please contact us at support@picasso.best."
   },
   "GalleryPage": {
     "subtitle": "コミュニティ厳選AI画像",

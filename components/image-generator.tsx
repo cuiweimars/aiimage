@@ -425,9 +425,9 @@ export function AIImageGeneratorPanel() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageUrl: imgUrl, prompt }),
+        credentials: 'include',
       })
       if (!res.ok) throw new Error("发布失败")
-      toast(t('galleryPublishSuccess'))
       toast(t('galleryShareSuccess'))
     } catch (e) {
       toast("发布失败: " + (e as Error).message)
